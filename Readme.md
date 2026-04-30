@@ -10,7 +10,7 @@ A **complete, production-ready daily sales tracking system** with:
 
 ✅ **Interactive Web App** - Add items, see totals in real-time
 ✅ **Telegram Bot** - Send summaries to Telegram anytime (FREE)
-✅ **Google Sheets Integration** - Auto-save at 9 PM or manually (FREE)
+✅ **Google Sheets Integration** - Auto-save(FREE)
 ✅ **100% English** - All interface text in English
 ✅ **Multi-Language Ready** - Easy to translate to any language
 
@@ -23,16 +23,9 @@ A **complete, production-ready daily sales tracking system** with:
 | File | Purpose | Use? |
 |------|---------|------|
 | `telegram_sales_bot_english.js` | Main Telegram bot (ENGLISH) | **YES - USE THIS** |
-| `QUICKSTART_ENGLISH.md` | Setup guide in English | **READ FIRST** |
 | `sheets_integration.js` | Google Sheets helper | Yes |
 | `package.json` | Dependencies list | Yes |
 | `.env.example` | Token template | Copy to `.env` |
-
-### Reference Files (Optional)
-
-- `ENGLISH_VERSION_SUMMARY.md` - Conversion guide
-- `WORKFLOW_COMPLETE.md` - How it works
-- `00-START-HERE.md` - Quick overview
 
 ---
 
@@ -84,15 +77,6 @@ Response: ✅ Added! Milk - ₹100. Total so far: ₹100
 ---
 
 ## 🤖 Telegram Bot Commands
-
-### Keyboard Buttons (Tap these)
-```
-📊 Today's Sales      → View today's sales summary
-📝 Add Item           → Add new item to list
-💾 Save to Sheet      → Save to Google Sheets
-📈 View Summary       → View sales summary
-🗑️ Clear All          → Delete all data
-```
 
 ### Text Commands
 ```
@@ -184,26 +168,13 @@ Use the interactive app at the top of this chat:
 
 1. **Enter item name:** "Milk", "Speaker", "Book", etc.
 2. **Enter amount:** 100, 7000, 500, etc.
-3. **Click "Add ➕"** → Item added to list
-4. **Repeat** for more items
-5. **Click "Send to Telegram"** → Summary to Telegram bot
-6. **Click "Save to Sheets"** → Save to Google Sheets
+3. **Repeat** for more items
 
 All in English! ✅
 
 ---
 
 ## 💾 Google Sheets Integration
-
-### Option A: Manual Save
-- Click "Save to Sheets" button anytime
-- Choose your sheet
-- Data saved immediately
-
-### Option B: Auto-Save at 9 PM
-- Set up Google Sheet
-- Configure sheet ID in settings
-- Data auto-saves daily at 9 PM
 
 ### Setup Google Sheet
 
@@ -306,7 +277,6 @@ sales-bot/
 ## 🎯 Complete Setup Checklist
 
 - [ ] Download telegram_sales_bot_english.js
-- [ ] Read QUICKSTART_ENGLISH.md
 - [ ] Get Telegram bot token from @BotFather
 - [ ] Run `npm init -y`
 - [ ] Run `npm install node-telegram-bot-api dotenv`
@@ -324,19 +294,15 @@ sales-bot/
 ### Core Features
 ✅ Add items with amounts
 ✅ View running total
-✅ Delete individual items
-✅ Clear all data for the day
 ✅ Local data backup (sales_log.json)
 
 ### Telegram Integration
 ✅ Send summaries anytime
 ✅ 24/7 availability
-✅ Keyboard buttons for quick access
 ✅ Message history
 ✅ Multiple users supported
 
 ### Google Sheets
-✅ Auto-save at 9 PM daily
 ✅ Manual save anytime
 ✅ Date & time tracking
 ✅ Item details stored
@@ -383,8 +349,7 @@ If you get stuck:
 
 **Immediate:**
 1. Download files
-2. Follow QUICKSTART_ENGLISH.md
-3. Get bot running
+2. Get bot running
 
 **Soon:**
 1. Set up Google Sheets backup
@@ -401,8 +366,6 @@ If you get stuck:
 ## 🎉 You're Ready!
 
 Your Daily Sales Tracker in **100% English** is ready to use!
-
-**Start here:** `QUICKSTART_ENGLISH.md`
 
 All files are in your outputs folder. Download them and follow the setup guide.
 
