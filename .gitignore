@@ -1,0 +1,11 @@
+.env
+node_modules
+claude
+bot.lock
+DEPLOYMENT_CHECKLIST.md
+PROJECT_SUMMARY.md
+QUICK_REFERENCE.md
+Quickstart.md
+seen_message_ids.json
+Summary.md
+VALIDATION_REPORT.md

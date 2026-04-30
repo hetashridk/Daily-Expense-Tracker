@@ -1,0 +1,31 @@
+{
+  "name": "hinglish-sales-tracker",
+  "version": "1.0.0",
+  "description": "Daily sales tracker with Telegram integration and Google Sheets auto-save",
+  "main": "telegram_sales_bot.js",
+  "scripts": {
+    "start": "node telegram_sales_bot.js",
+    "dev": "nodemon telegram_sales_bot.js",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "sales",
+    "tracker",
+    "hinglish",
+    "hindi"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.15.2",
+    "dotenv": "^16.6.1",
+    "google-auth-library": "^10.6.2",
+    "googleapis": "^118.0.0",
+    "node-telegram-bot-api": "^0.63.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

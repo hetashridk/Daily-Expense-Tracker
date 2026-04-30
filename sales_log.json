@@ -1,0 +1,25 @@
+{
+  "4/30/2026": {
+    "1364425137": {
+      "items": [
+        {
+          "name": "cold drink",
+          "amount": 20,
+          "timestamp": "3:38:27 PM"
+        },
+        {
+          "name": "milk",
+          "amount": 200,
+          "timestamp": "3:39:14 PM"
+        },
+        {
+          "name": "watch",
+          "amount": 5000,
+          "timestamp": "3:39:21 PM"
+        }
+      ],
+      "total": 5220,
+      "lastUpdated": "4/30/2026, 3:39:21 PM"
+    }
+  }
+}
