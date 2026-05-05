@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\\\.js$|\\\\.json$|\\\\.env\")",
+      "Bash(timeout 10 node telegram_sales_bot.js)",
+      "Bash(node telegram_sales_bot.js)",
+      "Bash(node -e \"const data = require\\('./sales_log.json'\\); console.log\\('✅ sales_log.json is valid JSON'\\); console.log\\('Current structure:', JSON.stringify\\(data, null, 2\\).substring\\(0, 500\\)\\); console.log\\('...'\\);\")",
+      "Bash(node -e ' *)",
+      "Bash(cat)",
+      "Read(//tmp/**)",
+      "Bash(npm list *)",
+      "Bash(pkill -f \"node telegram_sales_bot\")"
+    ]
+  }
+}

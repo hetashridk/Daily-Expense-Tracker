@@ -5,7 +5,8 @@
   "main": "telegram_sales_bot.js",
   "scripts": {
     "start": "node telegram_sales_bot.js",
-    "dev": "nodemon telegram_sales_bot.js",
+    // "start:instagram": "node instagram_forwarder.js",
+    "dev": "nodemon --ignore sales_log.json telegram_sales_bot.js",
     "test": "echo \"No tests yet\""
   },
   "keywords": [

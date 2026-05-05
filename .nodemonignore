@@ -1,0 +1,11 @@
+# nodemon ignore file - prevents infinite restart loops
+# These files should NOT trigger bot restarts
+
+sales_log.json
+seen_message_ids.json
+bot.lock
+*.log
+node_modules
+.env
+.git
+.DS_Store
